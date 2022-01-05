@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.header{
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+}
+.title{
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.mainContent{
+    display: flex;
+}
+.script{
+    flex: 1;
+}
+.videoAndAudio{
+    flex: 1;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.title2{
+    padding-top: 20px;
+    text-align: center;
+}
+.scriptContent{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 2em;
+}
+.videoFile{
+    padding-top: 20px;
+}
+.rawAudio{
+    padding-top: 20px;
+}
+.editedAudio{
+    padding-top: 30px;
+}
+.audioFile{
+    padding-left: 300px;
+}
+.member{
+    margin-top: 40px;
+    background-color: blueviolet;
+    height: 400px;
+}
+.title3{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.table{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    border-collapse: collapse;
+    width: 60%;
+}
+.tableRow{
+    padding-top: 20px;
+}
+.table td,.table th{
+    border: 1px solid #ddd;
+  padding: 8px;
+}
